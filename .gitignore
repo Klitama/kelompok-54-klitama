@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.p~*
+*.log
+
+# Env
+.env
+*.env
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Django SQLite (jaga-jaga kalau sempat pakai)
+db.sqlite3
+
+# VSCode & IDEs
+.vscode/
+.idea/
+*.swp
+
+# Migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# Static & media (kalau generated)
+staticfiles/
+media/
+
+# Docker
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Byte-compiled / cache
+*.egg-info/
+.eggs/
+dist/
+build/
