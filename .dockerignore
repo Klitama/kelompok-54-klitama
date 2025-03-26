@@ -1,0 +1,38 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Env & secrets
+.env
+*.env
+
+# Virtualenv
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Git
+.git
+.gitignore
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Static/media if generated
+staticfiles/
+media/
+
+# Build artifacts
+*.egg-info/
+build/
+dist/
+
+# Log files
+*.log
